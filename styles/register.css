@@ -34,7 +34,7 @@ body {
   font-weight: bold;
 }
 
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .form-container {
     width: 100%;
     top: 80%;
