@@ -33,3 +33,17 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
+
+@media screen and (max-width: 767px) {
+  .form-container {
+    width: 100%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    padding: 20px 20px;
+    box-shadow: 3px 3px 10px 0px #000;
+    border-radius: 15px;
+    width: 70vw;
+    height: fit-content;
+    background-color: #ffff;
+  }
+}
