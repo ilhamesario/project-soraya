@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Soraya Kebaya</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../styles/singleProduk.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-dark bg-dark sticky-top mb-5">
+      <div class="container-fluid">
+        <button class="navbar-toggler custom-toggler me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">Soraya Kebaya</a>
+        <div class="navbar navbar-dark text-white ms-auto">
+          <a class="nav-link px-3 pt-1 text-hover active" href="../page/cart.html"><i class="fa-solid fa-bag-shopping fa-xl"></i></a>
+          <a class="nav-link px-2 pt-1 text-hover" href="../page/login.html">Login</a>
+        </div>
+
+        <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Soraya Kebaya</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <form class="d-flex mb-2" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <ul class="navbar-nav navbar-dark justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Collection </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Baju Kerja</a></li>
+                  <li><a class="dropdown-item" href="#">Bridesmaid</a></li>
+                  <li><a class="dropdown-item" href="#">Casual</a></li>
+                  <li><a class="dropdown-item" href="#">Formal</a></li>
+                  <li><a class="dropdown-item" href="#">Gaun Malam</a></li>
+                  <li><a class="dropdown-item" href="#">Imlek</a></li>
+                  <li><a class="dropdown-item" href="#">Lebaran</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li><a class="dropdown-item" href="#">Bordir</a></li>
+                  <li><a class="dropdown-item" href="#">Bunga</a></li>
+                  <li><a class="dropdown-item" href="#">Renda</a></li>
+                  <li><a class="dropdown-item" href="#">Solid</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Purchase History</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- awal breadcrump -->
+    <div class="container">
+      <nav aria-label="breadcrumb" style="background-color: #ffff">
+        <ol class="breadcrumb p-3">
+          <li class="breadcrumb-item"><a href="../index.html" class="text-decoration-none">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Product</li>
+        </ol>
+      </nav>
+    </div>
+    <!-- akhir breadcrup -->
+
+    <!-- Awal Single Produk -->
+    <section class="container">
+      <div class="row row-produk">
+        <div class="col-lg-5">
+          <div class="single-pro-image pb-3">
+            <img src="../assets/prod1/1.JPG" id="mainImg" width="100%" alt="" />
+
+            <div class="small-img-group pt-2">
+              <div class="small-img-col">
+                <img src="../assets/prod1/1.JPG" width="100%" class="small-img" alt="" />
+              </div>
+              <div class="small-img-col">
+                <img src="../assets/prod1/2.JPG" width="100%" class="small-img" alt="" />
+              </div>
+              <div class="small-img-col">
+                <img src="../assets/prod1/3.JPG" width="100%" class="small-img" alt="" />
+              </div>
+              <div class="small-img-col">
+                <img src="../assets/prod1/4.JPG" width="100%" class="small-img" alt="" />
+              </div>
+              <div class="small-img-col">
+                <img src="../assets/prod1/5.JPG" width="100%" class="small-img" alt="" />
+              </div>
+              <div class="small-img-col">
+                <img src="../assets/prod1/6.JPG" width="100%" class="small-img" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7 ps-4">
+          <h4>Nama Kebaya</h4>
+          <div class="garis-nama"></div>
+          <h3 class="text-muted mb-3">Rp. 2.000.000</h3>
+          <select class="select">
+            <option>Select Size</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+          </select>
+          <div>
+            <input type="number" min="0" value="1" class="input" name="quantity" />
+            <label>Pcs</label>
+          </div>
+          <div class="btn-produk mt-3">
+            <a href="#" class="btn btn-warning text-white btn-lg me-2 btn-custom shop-item-button"><i class="fas fa-shopping-cart fs-6 me-2"></i>Add To Cart</a>
+          </div>
+          <section class="mt-3">
+            <div>
+              <h6>Description</h6>
+              <p>
+                - SKU (simple) &nbsp;:&nbsp; B2A2DAA372E842GS <br />
+                - Warna &emsp;&emsp;&emsp;&nbsp;:&nbsp; Soft Pink <br />
+                - Perawatan &ensp;&ensp;&nbsp;:&nbsp; Dry clean dan Cuci tangan <br />
+                - Material &emsp;&ensp;&ensp;&nbsp;&nbsp;:&nbsp; Serat Nanas
+              </p>
+            </div>
+            <div>
+              <h6>Size Chart</h6>
+              <p>
+                Lingkar dada : <br />
+                - S &emsp;&nbsp;(90 - 95 cm) <br />
+                - M &emsp;(96 - 100 cm) <br />
+                - L &emsp;&ensp;(100 - 105 cm) <br />
+                - XL &emsp;(105 - 110 cm) <br />
+                - XXL &ensp;(110 - 115 cm) <br />
+                - XXXL (115 - 120 cm)
+              </p>
+            </div>
+            <div>
+              <h6>Talent</h6>
+              <p>
+                Tinggi : 160 cm <br />
+                Berat &nbsp;: 50 kg <br />
+                Menggunakan size M
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Single Produk -->
+
+    <!-- Awal Footer -->
+    <footer class="text-black foot mt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-5 ps-4 pt-3">
+            <h5 class="text-left">Address</h5>
+            <p class="text-left">
+              Thamrin city mall Lantai 1 blok H1 no 8-9<br />
+              Lantai 1 blok G12 no 1-1A, <br />
+              Kb. Melati, Kecamatan Tanah Abang, Kota Jakarta Pusat,<br />
+              Daerah Khusus Ibukota Jakarta,<br />
+              10230
+            </p>
+          </div>
+          <div class="col-3 ps-4 pt-3">
+            <h5 class="">Follow Us</h5>
+            <a class="btn btn-outline-dark btn-floating m-1" href="https://www.facebook.com/people/Soraya-Kebaya/100026670581834/" role="button" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-dark btn-floating m-1" href="https://www.instagram.com/sorayakebayaa/" role="button" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="col-4 ps-4 pt-3">
+            <h5 class="">Secure Payment Gateway</h5>
+            <img src="../assets/logoPayment.png" alt="" class="featured-image" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center p-3 text-black foot border-top border-dark">Copyright © Soraya Kebaya. All Right Reserved</div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script>
+      var mainImg = document.getElementById("mainImg");
+      var smallimg = document.getElementsByClassName("small-img");
+
+      smallimg[0].onclick = function () {
+        mainImg.src = smallimg[0].src;
+      };
+      smallimg[1].onclick = function () {
+        mainImg.src = smallimg[1].src;
+      };
+      smallimg[2].onclick = function () {
+        mainImg.src = smallimg[2].src;
+      };
+      smallimg[3].onclick = function () {
+        mainImg.src = smallimg[3].src;
+      };
+      smallimg[4].onclick = function () {
+        mainImg.src = smallimg[4].src;
+      };
+      smallimg[5].onclick = function () {
+        mainImg.src = smallimg[5].src;
+      };
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>

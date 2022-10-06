@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: rgba(233, 230, 230, 0.849);
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+/* awal navbar */
+.navbar-toggler-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.custom-toggler.navbar-toggler {
+  border-style: inset;
+}
+
+.form-control {
+  font-size: 14px;
+}
+
+.ukuran {
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+
+@media screen and (max-width: 440px) {
+  .ukuran {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 994px) {
+  .form-control {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 994px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+/* akhir navbar */
+
+.row-produk {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 5px;
+  padding-top: 16px;
+}
+
+/* awal footer */
+.foot {
+  background-color: #ddb48f;
+  border: rgb(12, 12, 12);
+  border-width: 200;
+}
+
+.text-hover:hover,
+.text-hover.active {
+  text-decoration: none;
+  color: #ddb48f;
+  font-weight: bold;
+}
+
+.featured-image {
+  width: 20vw;
+}
+
+/* akhir footer */
+
+/* Awal Cart */
+.img-cart {
+  width: 70px;
+}
+
+.input {
+  width: 50px;
+  height: 45px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.th-header {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+@media screen and (min-width: 768px) {
+  #table-checkout {
+    width: 40%;
+  }
+}
+
+/* Akhir Cart */
